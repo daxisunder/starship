@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.19.0](https://github.com/starship/starship/compare/v1.18.2...v1.19.0) (2024-04-10)
+
+
+### Features
+
+* **container:** show name if available ([#5195](https://github.com/starship/starship/issues/5195)) ([3e3f18e](https://github.com/starship/starship/commit/3e3f18ef277c9bb3db9f60c964f280c7d981102c))
+* **gleam:** Add Gleam module ([#5886](https://github.com/starship/starship/issues/5886)) ([34a8f7e](https://github.com/starship/starship/commit/34a8f7e62845fd66df3f6f9003cb850f2b0d9bc5))
+* **k8s:** Add detect env vars option ([#4488](https://github.com/starship/starship/issues/4488)) ([e3b5dff](https://github.com/starship/starship/commit/e3b5dff3524608328de6ee3cbb390f8c640b0ce0))
+* **odin:** Add Odin Lang module ([#5873](https://github.com/starship/starship/issues/5873)) ([335c514](https://github.com/starship/starship/commit/335c514e9ee5fa5bc8a8294b4804ddf198504b97))
+* **username:** add aliases option ([#5855](https://github.com/starship/starship/issues/5855)) ([9c1eadd](https://github.com/starship/starship/commit/9c1eaddae154daed9e1d00faac414586f7920013))
+
+
+### Bug Fixes
+
+* **bash:** use `eval` instead of a procsub for the POSIX mode ([#5020](https://github.com/starship/starship/issues/5020)) ([0f859e8](https://github.com/starship/starship/commit/0f859e8b61c8ada354f4ea4147fb8752dca02c51))
+* **bash:** use eval instead of a procsub for the POSIX mode ([0f859e8](https://github.com/starship/starship/commit/0f859e8b61c8ada354f4ea4147fb8752dca02c51))
+* **bun:** change default icon ([#5880](https://github.com/starship/starship/issues/5880)) ([be4e97c](https://github.com/starship/starship/commit/be4e97c2d9169cbf0bc30e271dd4ba07530dc46f))
+
 ## [1.18.2](https://github.com/starship/starship/compare/v1.18.1...v1.18.2) (2024-03-29)
 
 
